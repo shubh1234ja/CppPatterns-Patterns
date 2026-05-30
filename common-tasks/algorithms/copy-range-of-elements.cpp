@@ -1,12 +1,12 @@
 // Copy a range of elements
 // C++11
 
-#include <vector>
-#include <algorithm>
-#include <iterator>
+#include<vector> //#include<bits/stdc++.h>
+#include<algorithm>
+#include<iterator>
 
-std::vector<int> target2(5);
-std::vector<int> target3;
+std::vector<int>target2(5);
+std::vector<int>target3;
 
 template <typename RangeOfInts>
 void foo(RangeOfInts source)
